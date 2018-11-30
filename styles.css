@@ -1,0 +1,175 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+ li {
+	list-style: none;
+}
+
+body {
+	display: flex;
+	background-image: url("file:///Users/connorgordon/PC/Sk8er-Site/assets/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Sans;
+}
+
+#body, #maindul, #topbar, #feed, #slink, .farticles{
+	display: flex;
+}
+
+#mainul {
+	width: 1050px;
+	margin: auto;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+
+/* Subcribe and Feed Icons Bar */
+
+
+#topbar {
+	justify-content: flex-end;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+#slink {
+	text-decoration: none;
+	color: white;
+	width: 200px;
+	height: 35px;
+	line-height: 30px;
+	border-right-style: dotted;
+	margin-top: 15px;
+	white-space: pre;
+}
+
+#feed {
+	
+	margin-bottom: 10px;
+	margin-left: -25px;
+}
+
+.icons {
+	margin: 0px 5px;
+	text-shadow: 0px 4px gray;
+}
+
+#fb {
+	color: rgb(70, 89, 141);
+}
+
+#rss {
+	color: rgb(196,145,69);
+}
+
+#twit {
+	color: rgb(111,141,194);
+}
+
+#you {
+	color: rgb(165,65,52);
+}
+
+/* Nav Bar */
+
+#navbar {
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+}
+
+.nav {
+	width: 247px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(171,36,41);
+	font-size: 18px;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(135,135,135,.5)
+}
+
+
+/* Main Picture */
+
+
+#mainpic {
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	margin: 10px 0px 10px -15px;
+
+	
+}
+
+/* Articles */
+
+h3 {
+	font-family: Helvetica, Arial, Sans;
+	font-size: 26px;
+	font-weight: normal;
+	color: rgb(63,61,63);
+	height: 90px;
+}
+
+h6 {
+	color: rgb(188,188,188);
+	margin: -5px 0 5px 0;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+p {
+	font-size: 14px;
+	color: rgb(122,121,122);
+	line-height: 1.8;
+}
+
+#articles {
+	display: flex;
+	justify-content: space-between;
+	width: 1050px;
+	margin: 0 0 0 -50px;
+}
+
+#mullen, #barbee, #hawk {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	flex-wrap: wrap;
+	background-color: white;
+	padding: 0px 20px 15px 20px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(135,135,135,.5)
+
+}
+
+#mullen {	
+	margin: 0 10px;
+}
+
+.farticles {
+	color: black;
+}
+
+#c {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.readmore {
+	text-decoration: none;
+	color: rgb(171,36,41);
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 80px;
+}
