@@ -129,9 +129,9 @@ section {
 }
 
 #logo {
-position: absolute;
-top: 230px;
-margin-left: 20px;
+	position: absolute;
+	top: 230px;
+	margin-left: 20px;
 }
 
 /* Articles */
@@ -429,9 +429,5 @@ textarea {
 	left: 100px;
 	margin-top: 20px;
 	color: white;
-
-@media only
-
-
 
 
